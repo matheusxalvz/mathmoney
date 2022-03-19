@@ -108,15 +108,7 @@ max-width: 100%;
     max-width: 960px; 
     padding: 60px 10px;
     display: flex;
-    flex-direction: row;
-    var re = /apples/gi;
-
-var str = 'Apples are round, and apples are juicy.';
-
-var newstr =  /* inserir código aqui */
-
-console.log(newstr);
-     
+    flex-direction: row;       
 }
 .beneficios-img{
     max-width: 500px;
