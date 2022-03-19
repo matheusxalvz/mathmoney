@@ -1,0 +1,326 @@
+html{
+    font-size: 62,5%;
+}
+body,h1, h2, h3, p, ul, li, a{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+* {
+box-sizing : border-box;
+}
+ul{
+list-style : none;
+}
+a{
+text-decoration : none;
+}
+img{
+display: block;
+max-width: 100%;
+
+}
+.menu-bg{
+    background-color: #1F1F1F;    
+}
+.menu{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 15px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu a {
+    color: #F0F0F0;
+}
+.menu-logo a{
+    font-size: 2.25em;
+    font-weight: bold;
+    margin: 0 10px;
+}
+.menu-nav ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.menu-nav a {
+    font-size: 1.25em;
+    display: block;
+    padding: 10px;
+}
+.menu-nav a:hover{
+    background-color: #768BC0;
+}
+        /* Introdução */
+.introducao{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 60px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.intro-text{
+    max-width: 540px;
+}
+.intro-text h1{
+    font-size: 2.25em;
+    color: #1F1F1F;
+    margin-bottom: 15px;
+}
+.intro-text-sub{
+    font-size: 1.2em;
+    color: #5C5C5C;
+    margin-bottom: 15px;
+}
+.intro-btn{
+        max-width: 210px;
+        height: 50px;
+        background-color: #13234A;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+.intro-btn p{
+    color: #B7C7EF;
+    font-size: 2.10em;
+    padding: 10px;
+}
+.intro-img{
+    max-width: 500px;
+    max-height: 449px;    
+}
+.intro-img img{
+    border-radius: 10px;
+}
+
+    /* Beneficios */
+
+.beneficios{    
+    background-color: #13234A;
+       
+}
+.beneficios-container{
+    margin: 0 auto;
+    max-width: 960px; 
+    padding: 60px 10px;
+    display: flex;
+    flex-direction: row;
+    var re = /apples/gi;
+
+var str = 'Apples are round, and apples are juicy.';
+
+var newstr =  /* inserir código aqui */
+
+console.log(newstr);
+     
+}
+.beneficios-img{
+    max-width: 500px;
+    max-height: 400px;
+}
+.beneficios-img img {
+    border-radius: 10px;
+}
+.beneficios-text{
+    width: 100%;
+    padding-left: 15px;
+}
+.beneficios-title{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+.beneficios-title h2{
+    color: #D3E0FF;
+    font-size: 2.10em;
+    
+}
+.beneficios-sub{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-bottom: 15px;
+       
+}
+.beneficios-sub img{
+    margin-right: 10px;
+}
+.beneficios-sub p {
+    font-size: 1.2em;
+    color: #B7C7EF;
+}
+.title-enfase-fraco{
+    width: 20px;
+    height: 6px;
+    background-color: #98ABDA;    
+}
+.title-enfase-forte{
+    width: 20px;
+    height: 6px;
+    background-color: #13234A;    
+}
+
+
+        /* Lucro */
+
+
+.lucro{
+    background-color: #F0F0F0;
+}
+.lucro-container{
+    margin: 0 auto;
+    max-width: 960px; 
+    padding: 60px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.lucro-cards{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.lucro-card{
+    width: 100%;
+    max-width: 300px;
+    height: 360px;
+    background-color:#13234A ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+.lucro-info{
+    display: flex;
+    width: 100%;
+    padding: 5px;
+    flex-direction: row;
+    justify-content: space-evenly;  
+    
+}
+.ano h2{
+    color: #596FA6;
+    font-size: 1.5em;
+}
+.lucro-info-ativo{
+    margin-top: 15px;   
+}
+.lucro-info-ativo h3{
+    color:#B7C7EF;
+    font-size: 1.0em;
+    margin: 15px 0;
+}
+.lucro-info-percent{
+    margin-top: 15px;
+}
+.lucro-info-percent h3{
+    color:#B7C7EF;
+    font-size: 1.0em;
+    margin: 15px 0;
+}
+            /* Contato */
+
+.contato{
+    background-color: #13234A;
+}
+.contato-container{
+    margin: 0 auto;
+    max-width: 960px; 
+    padding: 60px 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.contato-title{
+    color: #D3E0FF;
+    font-size: 2.10em;
+    margin-bottom: 15px;
+
+}
+.contato-text h3{
+    color: #B7C7EF;
+    font-size: 1.3em;
+    margin-bottom: 15px;
+}
+.contato-dado{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 10px;    
+}
+.contato-dado p{
+    font-size: 0.8em;
+    color: #B7C7EF;
+}
+.contato-dado img {
+    width: 20px;
+    height: 20px;
+}
+.contato-form{
+    width: 250px;
+    height: 300px;
+    background-color: #F0F0F0;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    padding: 20px 10px;
+}
+.form-label{
+    color: #13234A;
+    font-size: 0.8em;
+}
+.contato-form input, textarea{
+    width: 220px;
+    height: 30px;    
+    border: 1px solid #B7C7EF;
+    border-radius: 10px;
+    padding: 10px;
+}
+.contato-form textarea{
+    height: 125px;
+}
+.form-submit-container{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.form-submit-btn{
+    width: 100px;
+    height: 30px;
+    background-color: #13234A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px; 
+}
+.form-submit-btn p{
+    color: #B7C7EF;
+    font-size: 1.0em;
+    
+}
+footer{
+    background-color: #3D3D3D;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer p{
+    color: #F0F0F0;
+    font-size: 0.7em;
+}      
+    
